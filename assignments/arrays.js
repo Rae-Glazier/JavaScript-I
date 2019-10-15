@@ -151,14 +151,14 @@ let BMW = [];
 let Audi = [];
 console.log();
 
-for (let i=0; i < inventory.length; i++) {
-  carMake.push(inventory[i].car_make);
-}
+// for (let i=0; i < inventory.length; i++) {
+//   carMake.push(inventory[i].car_make);
+// }
 //console.log(carMake);
 
-for (let i=0; i < carMake.length; i++) {
-  if (carMake[i] === "BMW") {BMWAndAudi.push(carMake[i])};
-  if (carMake[i] === "Audi") {BMWAndAudi.push(carMake[i])};
+for (let i=0; i < inventory.length; i++) {
+  if (inventory[i].car_make === "BMW") {BMWAndAudi.push(inventory[i])};
+  if (inventory[i].car_make === "Audi") {BMWAndAudi.push(inventory[i])};
 }
 //console.log(BMWAndAudi);
 
